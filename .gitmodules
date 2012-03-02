@@ -1,0 +1,3 @@
+[submodule "xchat"]
+	path = xchat
+	url = https://doherty@github.com/doherty/xchat.git
