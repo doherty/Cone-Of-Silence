@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use utf8;
 use Xchat qw(:all);
-# PODNAME: Cone_Of_Silence.pl
+# PODNAME: cos.pl
 # ABSTRACT: Filter out the noise of a huge IRC channel by lowering The Cone Of Silence
 # VERSION
 

@@ -1,0 +1,50 @@
+# NAME
+
+cos.pl - Filter out the noise of a huge IRC channel by lowering The Cone Of Silence
+
+# VERSION
+
+version 0.001
+
+# SYNOPSIS
+
+This [XChat](http://xchat.org) script may be useful on very busy channels when
+you are trying to have a conversation with a handful of people. For example,
+when getting support in `irc.freenode.net #ubuntu`.
+
+You specify who you're talking to with `/cos nick1 nick2 ...`, and now
+you only hear from those people. Add more users to your conversation with
+`/cos nick3 nick4`. Remove the restrictions with `/cos`. List the
+people you can hear with `/list_cone`.
+
+## The Cone Of Silence&#x2122;
+
+The Cone Of Silence<0x2122> is a [fictional device](https://en.wikipedia.org/wiki/Cone\_of\_Silence)
+from the classic 1960s TV show [Get Smart](https://en.wikipedia.org/wiki/Get\_Smart).
+
+# AVAILABILITY
+
+The latest version of this module is available from the Comprehensive Perl
+Archive Network (CPAN). Visit [http://www.perl.com/CPAN/](http://www.perl.com/CPAN/) to find a CPAN
+site near you, or see [https://metacpan.org/module/Cone::Of::Silence/](https://metacpan.org/module/Cone::Of::Silence/).
+
+# SOURCE
+
+The development version is on github at [http://github.com/doherty/Cone-Of-Silence](http://github.com/doherty/Cone-Of-Silence)
+and may be cloned from [git://github.com/doherty/Cone-Of-Silence.git](git://github.com/doherty/Cone-Of-Silence.git)
+
+# BUGS AND LIMITATIONS
+
+You can make new bug reports, and view existing ones, through the
+web interface at [https://github.com/doherty/Cone-Of-Silence/issues](https://github.com/doherty/Cone-Of-Silence/issues).
+
+# AUTHOR
+
+Mike Doherty <doherty@cpan.org>
+
+# COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2012 by Mike Doherty.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
